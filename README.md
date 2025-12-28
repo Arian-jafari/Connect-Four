@@ -26,26 +26,30 @@ A modern Connect Four game built in **Python** with **Pygame**, featuring multip
 
 ```bash
 git clone https://github.com/Arian-jafari/Connect-Four
-cd Connect-Four ```
-
+cd Connect-Four
+```
 2. Install dependencies:
+
+```bash
 pip install requirements.txt
-
+```
 3. Run the game:
-python main.py
 
-## **Controls**
+```bash
+python mian.py
+```
+## Controls
 
-- Mouse movement: Move the piece indicator on top of the board
-- Mouse click: Drop your piece in the selected column
-- Menu buttons: Choose game mode, switch board size, restart, or quit
+- **Mouse movement**: Move the piece indicator on top of the board
+- **Mouse click**: Drop your piece in the selected column
+- **Menu buttons**: Choose game mode, switch board size, restart, or quit
 
-## **Project Structure**:
-Connect-Four/
-│── engine.py       # AI algorithms (Minimax, Alpha-Beta, Expectimax)
-│── game.py         # Game logic (board, moves, win/draw detection)
-│── gui.py          # Pygame GUI, menus, buttons, and animations
-│── main.py         # Entry point to run the game
-│── utils.py        # Board evaluation functions for AI
-│── README.md       # Project documentation
+## Project Structure
 
+connect-four/
+│── engine.py # AI algorithms (Minimax, Alpha-Beta, Expectimax)
+│── game.py # Game logic (board, moves, win/draw detection)
+│── gui.py # Pygame GUI, menus, buttons, and animations
+│── main.py # Entry point to run the game
+│── utils.py # Board evaluation functions for AI
+│── README.md # Project documentation
