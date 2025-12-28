@@ -31,12 +31,12 @@ cd Connect-Four
 2. Install dependencies:
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 3. Run the game:
 
 ```bash
-python mian.py
+python main.py
 ```
 ## Controls
 
@@ -45,7 +45,7 @@ python mian.py
 - **Menu buttons**: Choose game mode, switch board size, restart, or quit
 
 ## Project Structure
-
+```
 connect-four/
 │── engine.py # AI algorithms (Minimax, Alpha-Beta, Expectimax)
 │── game.py # Game logic (board, moves, win/draw detection)
@@ -53,3 +53,4 @@ connect-four/
 │── main.py # Entry point to run the game
 │── utils.py # Board evaluation functions for AI
 │── README.md # Project documentation
+```
