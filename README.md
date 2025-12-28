@@ -26,7 +26,7 @@ A modern Connect Four game built in **Python** with **Pygame**, featuring multip
 
 ```bash
 git clone https://github.com/Arian-jafari/Connect-Four
-cd Connect-Four
+cd Connect-Four ```
 
 2. Install dependencies:
 pip install requirements.txt
